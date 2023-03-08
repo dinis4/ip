@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>About me</title>
+		<!-- Reset css -->
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/base.css" />
+		<!-- styles -->
+		<link rel="stylesheet" href="./css/blocks/btn.css" />
+		<link rel="stylesheet" href="./css/blocks/header.css" />
+		<link rel="stylesheet" href="./css/blocks/how-it-works.css" />
+		<link rel="stylesheet" href="./css/blocks/story.css" />
+		<link rel="stylesheet" href="./css/blocks/product.css" />
+		<link rel="stylesheet" href="./css/blocks/footer.css" />
+		<!-- fonts -->
+		<link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css" />
+		<link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header-row">
+					<nav class="header-nav">
+						<ul>
+							<li><a href="#" onclick='window.location="order.html";'>Заказать работу</a></li>
+							<li><a href="#" onclick='window.location="solutions.html";'>Готовые решения</a></li>
+							<li><a href="#">Цены</a></li>
+							<li><a href="#" onclick='window.location="gallery.html";'>Галерея</a></li>
+						</ul>
+					</nav>
+					<div class="header-login">
+						<a class="header-login-link" href="#">Авторизоваться</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+
+			<section class="how-it-works">
+				<div class="container">
+					<div class="how-it-works-header">
+						<div class="how-it-works-header-head">
+							<h2 class="how-it-works-title">Узнайте как это работает</h2>
+							<h3 class="how-it-works-subtitle">
+								Закажите работу в три шага
+							</h3>
+						</div>
+						<div class="how-it-works-header-content">
+						</div>
+					</div>
+
+					<div class="how-it-works-steps">
+						<div class="step">
+							<div class="step-text">
+								<p>
+									Отправьте ваш макет и выберите опции по выполнению
+								</p>
+							</div>
+
+							<div class="step-img-wrapper">
+								<img
+									class="step-img"
+									src="./img/steps/step-01.bmp"
+									alt="Step Img"
+								/>
+							</div>
+						</div>
+
+						<div class="step">
+							<div class="step-text">
+								<p>
+									Согласуйте время выполнения работы
+								</p>
+							</div>
+
+							<div class="step-img-wrapper">
+								<img
+									class="step-img"
+									src="./img/steps/step-02.png"
+									alt="Step Img"
+								/>
+							</div>
+						</div>
+
+						<div class="step">
+
+							<div class="step-text">
+								<p>
+									Получите вашу работу
+								</p>
+							</div>
+
+							<div class="step-img-wrapper">
+								<img
+									class="step-img"
+									src="./img/steps/step-03.jpg"
+									alt="Step Img"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="story">
+				<div class="container container-wide">
+					<div class="story-row">
+
+                        <div class="story-content">
+							<h2 class="story-heading">Возникли вопросы?</h2>
+							<div class="story-text">
+								<p>Свяжитесь используя эту форму.</p>
+							</div>
+							<div class="story-btn">
+								<a href="#" class="btn btn-big">Связаться</a>
+							</div>
+						</div>
+
+						<div class="story-video">
+							<div id="video-story-overlay" class="story-video-overlay">
+								<button id="video-story-btn" class="story-video-btn">
+									<img id="video-story-btn-icon" width="82" height="82" src="./img/story/play-white.svg" alt="Play" />
+								</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="product">
+				<div class="container">
+					<div class="product-row">
+						<div class="product-img-wrapper">
+							<img src="./img/product/photo.jpg" alt="" class="product-img" />
+						</div>
+
+						<div class="product-content">
+							<div class="product-content-text">
+								<p>
+									Биткузин Динислам.<br/>
+									web разработчик.<br/>
+									готов выполнить ваш заказ по созданию сайта.
+								</p>
+							</div>
+							<div class="product-content-btn">
+								<a href="#" class="btn btn-big" onclick='window.location="labs.html";'>Посмотреть работы</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<nav class="footer-nav">
+						<ul>
+							<li><a href="#">Заказать работу</a></li>
+							<li><a href="#">Готовые решения</a></li>
+							<li><a href="#">Цены</a></li>
+							<li><a href="#" onclick='window.location="gallery.html";'>Галерея</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+</html>
